@@ -1,0 +1,88 @@
+.container{
+    width: 850px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto; 
+  }
+  .text-area{
+   margin-left: 128px;
+   text-transform: capitalize;
+}
+.text-area h3{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  font-size:30px ;
+  
+}
+.text-area h1  {
+    display: flex;
+    justify-content: center;
+    font-size:60px ;
+    margin: 0;
+    
+}
+.text-area h1::after{
+    content:" impressive features" ;
+    color:deepskyblue ;
+    margin-left: 12px;
+}
+.text-area p{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    opacity: 70%;
+}
+
+
+.boxs{
+    width: 800px;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 220px 220px 220px;
+    grid-gap: 50px; 
+    margin-right: 50px;
+}
+.box{
+    margin: 5px;
+    padding-top: 25px;
+    text-align: center;
+  
+} 
+
+i{
+    font-size: 40px;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: deepskyblue;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+}
+.box h3{
+    text-transform: capitalize;
+    font-size: 20px;
+    margin: 5px; 
+    color:black;
+}
+.box p{
+    text-transform: capitalize;
+    font-size: 15px;
+    color: black;
+    opacity: 70%;
+}
+.box a{
+    text-decoration: none;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+    color: black;
+    border-radius: 3px;
+    text-transform: capitalize;
+    transition: .6s ease;
+}
+.box a:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    background-size: 50px;
+} 
